@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+
+* {
+    margin: 0;
+    height: auto;
+    width: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    background: linear-gradient(to right, #1f58d4, #01dbdf);
+    height: 100dvh;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.heading
+{
+    text-align: left;
+}
+
+.app {
+    width: 60%;
+    
+}
+
+@media (max-width:768px) {
+    .app {
+        width: 90%;
+    }
+}
+
+.app h1 {
+    color: white;
+    font-size: 40px;
+    padding: 10px 0;
+    text-align: center;
+    padding-left: 90px;
+    border-radius: .5rem .5rem 0 0;
+    background: linear-gradient(to right, #19105b, rgb(25, 16, 91));
+}
+
+.app form {
+    display: flex;
+    width: 100%;
+    background-color: #262e4c;
+}
+
+.app form input {
+    border: none;
+    background-color: #3c4979;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    width: 90%;
+}
+
+.app form button {
+    border: none;
+    color: white;
+    background-color: #0ba518;
+    font-size: 25px;
+    font-weight: 600;
+    height: 42px;
+    width: 10%;
+}
+
+.app ul {
+    list-style: none;
+    color: #fff;
+    padding: 0;
+}
+
+.app ul li {
+    padding: 10px;
+    background-color: #262e4c;
+    border-bottom: 1px solid #3a4674;
+}
+
+.check {
+    width: 0.8em;
+    height: 0.8em;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    /* -webkit-appearance: none; */
+}
+
+.check:checked {
+    background-color: #1dd2af;
+}
+
+.task {
+    font-size: 18px;
+    padding: 0 10px;
+    width: fit-content;
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+.task:focus {
+    outline: none;
+}
+
+.app ul li i {
+    float: right;
+    cursor: pointer;
+}
+
+.app ul li i:hover {
+    color: rgb(255, 82, 82);
+}
+
+.completed {
+    color: rgba(192, 192, 192, 0.8);
+    text-decoration: line-through;
+}
+
+.text , .text1{
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.text1
+{
+    width:150px
+}
+.Search
+{
+   background-color: #0ba518; 
+   width: 60px;
+}
+
+.find
+{
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.finder
+{
+   margin-left: 16vb;
+
+}
+
